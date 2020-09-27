@@ -31,6 +31,19 @@ int main() {
       output2[a] = output1[i];
       a++;
     }
+    if (output1[i] == 'A' || output1[i] == 'B' || output1[i] == 'C' ||
+	output1[i] == 'D' || output1[i] == 'E' || output1[i] == 'F' ||
+	output1[i] == 'G' || output1[i] == 'H' || output1[i] == 'I' ||
+	output1[i] == 'J' || output1[i] == 'K' || output1[i] == 'L' ||
+	output1[i] == 'M' || output1[i] == 'N' || output1[i] == 'O' ||
+	output1[i] == 'P' || output1[i] == 'Q' || output1[i] == 'R' ||
+	output1[i] == 'S' || output1[i] == 'T' || output1[i] == 'U' ||
+	output1[i] == 'V' || output1[i] == 'W' || output1[i] == 'X' ||
+	output1[i] == 'Y' || output1[i] == 'Z') {
+      output2[a] = (output1[i] + 32);
+      a++;
+    }
+    
   }
   
   int b = 0;
